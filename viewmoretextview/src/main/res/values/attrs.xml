@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ViewMoreTextView">
+        <attr name="tv_max_char" format="integer"/>
+        <attr name="tv_expand_text" format="reference|string"/>
+        <attr name="tv_collapse_text" format="reference|string"/>
+        <attr name="tv_click_underline" format="boolean"/>
+        <attr name="tv_click_color" format="reference|color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.csguys.viewmoretextview.ViewMoreTextView
+            android:id="@+id/tv1"
+            app:tv_max_char="100"
+            android:textColor="@android:color/black"
+            app:tv_click_color="@color/colorAccent"
+            android:layout_marginTop="20dp"
+            app:tv_expand_text="@string/text_continue"
+            app:tv_collapse_text="@string/text_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.csguys.viewmoretextview.ViewMoreTextView
+            android:id="@+id/tv2"
+            android:layout_marginTop="20dp"
+            app:tv_max_char="200"
+            app:tv_expand_text="@string/expand"
+            app:tv_click_underline="true"
+            app:tv_collapse_text="@string/collapse"
+            app:tv_click_color="@android:color/holo_blue_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.csguys.viewmoretextview.ViewMoreTextView
+            android:id="@+id/tv3"
+            app:tv_max_char="150"
+            app:tv_click_color="@android:color/holo_orange_dark"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

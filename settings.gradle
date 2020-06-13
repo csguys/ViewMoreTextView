@@ -1,0 +1,3 @@
+include ':viewmoretextview'
+include ':app'
+rootProject.name = "SampleApp"
