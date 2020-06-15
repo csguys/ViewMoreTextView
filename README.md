@@ -18,6 +18,7 @@ dependencies {
 }
 ```
 
+
 ## Demo
 <img src="https://github.com/csguys/ViewMoreTextView/blob/master/sample.gif" width="40%">
 
@@ -35,6 +36,13 @@ dependencies {
             app:tv_collapse_text="@string/text_close"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+```
+To programmatically set text use method
+```
+setCharText(CharSequence)
+
+setCharText(String resource id)
+
 ```
 
 ### Customization
